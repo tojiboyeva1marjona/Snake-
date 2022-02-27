@@ -134,11 +134,7 @@ class App extends Component {
         const displayRows = this.state.rows.map((row, i) => row.map((value, j) =>  <div name={`${i}=${j}`} className={value} />))
         return (
             <div className="a">
-                <h1> Snake  v0.1.1</h1>
-                <ul>
-                    <li>press "space" to pause the game.</li>
-                    <li>press "arrow keys" to change direction/ unpause.</li>
-                </ul>
+                
                 <div className="snake-container">
                     <div className="grid">{displayRows}</div>
                 </div>
